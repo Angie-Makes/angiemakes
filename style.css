@@ -1,16 +1,16 @@
 /*
-Theme Name: Twenty Twenty-Five
-Theme URI: https://wordpress.org/themes/twentytwentyfive/
+Theme Name: Angie-Makes
+Theme URI: https://wordpress.org/themes/angiemakes/
 Author: the WordPress team
 Author URI: https://wordpress.org
-Description: Twenty Twenty-Five emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
+Description: Angie-Makes emphasizes simplicity and adaptability. It offers flexible design options, supported by a variety of patterns for different page types, such as services and landing pages, making it ideal for building personal blogs, professional portfolios, online magazines, or business websites. Its templates cater to various blog styles, from text-focused to image-heavy layouts. Additionally, it supports international typography and diverse color palettes, ensuring accessibility and customization for users worldwide.
 Requires at least: 6.7
 Tested up to: 6.8
 Requires PHP: 7.2
 Version: 1.3
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: twentytwentyfive
+Text Domain: angiemakes
 Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, translation-ready, wide-blocks, block-styles, style-variations, accessibility-ready, blog, portfolio, news
 */
 
@@ -20,7 +20,7 @@ Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, feature
  */
 a {
 	text-decoration-thickness: 1px !important;
-	text-underline-offset: .1em;
+	text-underline-offset: 0.1em;
 }
 
 /* Focus styles */
@@ -30,17 +30,24 @@ a {
 }
 
 /* Increase the bottom margin on submenus, so that the outline is visible. */
-.wp-block-navigation .wp-block-navigation-submenu .wp-block-navigation-item:not(:last-child) {
+.wp-block-navigation
+	.wp-block-navigation-submenu
+	.wp-block-navigation-item:not(:last-child) {
 	margin-bottom: 3px;
 }
 
 /* Increase the outline offset on the parent menu items, so that the outline does not touch the text. */
-.wp-block-navigation .wp-block-navigation-item .wp-block-navigation-item__content {
+.wp-block-navigation
+	.wp-block-navigation-item
+	.wp-block-navigation-item__content {
 	outline-offset: 4px;
 }
 
 /* Remove outline offset from the submenus, otherwise the outline is visible outside the submenu container. */
-.wp-block-navigation .wp-block-navigation-item ul.wp-block-navigation__submenu-container .wp-block-navigation-item__content {
+.wp-block-navigation
+	.wp-block-navigation-item
+	ul.wp-block-navigation__submenu-container
+	.wp-block-navigation-item__content {
 	outline-offset: 0;
 }
 
@@ -48,7 +55,16 @@ a {
  * Progressive enhancement to reduce widows and orphans
  * https://github.com/WordPress/gutenberg/issues/55190
  */
-h1, h2, h3, h4, h5, h6, blockquote, caption, figcaption, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+blockquote,
+caption,
+figcaption,
+p {
 	text-wrap: pretty;
 }
 

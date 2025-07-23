@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Photo blog archive
- * Slug: twentytwentyfive/template-archive-photo-blog
+ * Slug: angiemakes/template-archive-photo-blog
  * Template Types: archive
  * Viewport width: 1400
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Angie_Makes
+ * @since Angie-Makes 1.0
  */
 
 ?>
@@ -19,7 +19,7 @@
 <main class="wp-block-group" style="margin-top:var(--wp--preset--spacing--60)">
 	<!-- wp:query-title {"type":"archive","textAlign":"center"} /-->
 	<!-- wp:term-description {"textAlign":"center"} /-->
-	<!-- wp:pattern {"slug":"twentytwentyfive/template-query-loop-photo-blog"} /-->
+	<!-- wp:pattern {"slug":"angiemakes/template-query-loop-photo-blog"} /-->
 </main>
 <!-- /wp:group -->
 

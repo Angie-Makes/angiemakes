@@ -1,12 +1,12 @@
 <?php
 /**
  * Title: Right-aligned query loop
- * Slug: twentytwentyfive/template-query-loop-vertical-header-blog
+ * Slug: angiemakes/template-query-loop-vertical-header-blog
  * Inserter: no
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Angie_Makes
+ * @since Angie-Makes 1.0
  */
 
 ?>
@@ -44,7 +44,7 @@
 
 	<!-- wp:query-no-results -->
 		<!-- wp:paragraph -->
-		<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'twentytwentyfive' ); ?></p>
+		<p><?php echo esc_html_x( 'Sorry, but nothing was found. Please try a search with different keywords.', 'Message explaining that there are no results returned from a search.', 'angiemakes' ); ?></p>
 		<!-- /wp:paragraph -->
 	<!-- /wp:query-no-results -->
 </div>

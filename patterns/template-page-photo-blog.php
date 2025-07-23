@@ -1,13 +1,13 @@
 <?php
 /**
  * Title: Photo blog page
- * Slug: twentytwentyfive/template-page-photo-blog
+ * Slug: angiemakes/template-page-photo-blog
  * Template Types: page
  * Viewport width: 1400
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Angie_Makes
+ * @since Angie-Makes 1.0
  */
 
 ?>

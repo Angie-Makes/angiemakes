@@ -1,8 +1,8 @@
 <?php
 /**
  * Title: Landing page for book
- * Slug: twentytwentyfive/page-landing-book
- * Categories: twentytwentyfive_page, featured
+ * Slug: angiemakes/page-landing-book
+ * Categories: angiemakes_page, featured
  * Keywords: starter
  * Block Types: core/post-content
  * Post Types: page, wp_template
@@ -10,15 +10,15 @@
  * Description: A landing page for the book with a hero section, pre-order links, locations, FAQs and newsletter signup.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Angie_Makes
+ * @since Angie-Makes 1.0
  */
 
 ?>
 
-<!-- wp:pattern {"slug":"twentytwentyfive/hero-book"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-links"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/banner-about-book"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/cta-book-locations"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/text-faqs"} /-->
-<!-- wp:pattern {"slug":"twentytwentyfive/cta-newsletter"} /-->
+<!-- wp:pattern {"slug":"angiemakes/hero-book"} /-->
+<!-- wp:pattern {"slug":"angiemakes/cta-book-links"} /-->
+<!-- wp:pattern {"slug":"angiemakes/banner-about-book"} /-->
+<!-- wp:pattern {"slug":"angiemakes/cta-book-locations"} /-->
+<!-- wp:pattern {"slug":"angiemakes/text-faqs"} /-->
+<!-- wp:pattern {"slug":"angiemakes/cta-newsletter"} /-->

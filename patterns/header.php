@@ -1,14 +1,14 @@
 <?php
 /**
  * Title: Header
- * Slug: twentytwentyfive/header
+ * Slug: angiemakes/header
  * Categories: header
  * Block Types: core/template-part/header
  * Description: Site header with site title and navigation.
  *
  * @package WordPress
- * @subpackage Twenty_Twenty_Five
- * @since Twenty Twenty-Five 1.0
+ * @subpackage Angie_Makes
+ * @since Angie-Makes 1.0
  */
 
 ?>
